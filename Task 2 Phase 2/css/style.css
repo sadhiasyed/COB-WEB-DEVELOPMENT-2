@@ -1,0 +1,119 @@
+.benner-title {
+  font-size: 80px;
+}
+.sevice-icons {
+  width: 100px;
+}
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: #f1f1f1;
+}
+.header {
+  background-color: #000;
+  color: #ffffff;
+  border: 1px solid transparent;
+  min-height: 20px;
+}
+.inner-header {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  float: left;
+  height: 75px;
+  padding: 15px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.header-link {
+  float: bottom;
+  height: 50px;
+  padding: 15px 15px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.content {
+  min-height: 600px;
+}
+.button {
+  color: #8b5a5a;
+  background-color: #c9302c;
+  border-color: #ac2925;
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 6px;
+}
+.container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+.items {
+  width: 30%;
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  float: left;
+  margin-left: 1%;
+}
+
+.thumbnail {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.caption {
+  color: #000;
+  padding: 0 10px 10px;
+  font-weight: bold;
+  text-align: center;
+}
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #71754e;
+}
+
+.custom-title {
+  color: #363958;
+  font-family: "Bebas Neue", cursive;
+  font-size: 80px;
+}
+.orange-highlight {
+  color: #fa804c;
+}
+.custom-text {
+  color: #363958;
+  font-size: 1em;
+  font-weight: 500;
+}
+.custom-btn {
+  color: rgb(255, 255, 255);
+  background: linear-gradient(180deg, #e662e2, #e662e2);
+  border: none;
+  padding: 18px 32px;
+  border-radius: 10px;
+}
+.sevice-icons {
+  width: 100px;
+}

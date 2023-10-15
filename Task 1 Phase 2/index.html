@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1"
+    />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container-new">
+      <h1>UNIT CONVERTER</h1>
+      <form name="property_form_new">
+        <span>
+          <select
+            class="select-property-new"
+            name="the_menu_new"
+            size="1"
+            onChange="updateUnitMenu(this, document.form_A_new.unit_menu_new); updateUnitMenu(this, document.form_B_new.unit_menu_new)"
+          >
+            <option value="Length">Length</option>
+            <option value="Volume">Volume</option>
+            <option value="Speed">Speed</option>
+            <option value="Weight">Weight</option>
+          </select>
+        </span>
+      </form>
+
+      <div class="col-new">
+        <form name="form_A_new" onSubmit="return false">
+          <span>
+            <select
+              name="unit_menu_new"
+              onChange="calculateUnit(document.form_B_new, document.form_A_new)"
+            ></select>
+          </span>
+          <input
+            type="text"
+            class="numbersonly-new"
+            name="unit_input_new"
+            maxlength="20"
+            value="0"
+            onKeyUp="calculateUnit(document.form_A_new, document.form_B_new)"
+          />
+        </form>
+      </div>
+
+      <div class="col-new">
+        <form name="form_B_new" onSubmit="return false">
+          <span>
+            <select
+              name="unit_menu_new"
+              onChange="calculateUnit(document.form_A_new, document.form_B_new)"
+            ></select>
+          </span>
+          <input
+            type="text"
+            class="numbersonly-new"
+            name="unit_input_new"
+            maxlength="20"
+            value="0"
+            onkeyup="calculateUnit(document.form_B_new, document.form_A_new)"
+          />
+        </form>
+      </div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
